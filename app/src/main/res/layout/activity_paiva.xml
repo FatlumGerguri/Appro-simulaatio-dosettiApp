@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaivaActivity">
+
+    <TextView
+        android:id="@+id/textViewPaivaNimi"
+        android:layout_width="190dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAamu"
+        android:layout_width="113dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:clickable="true"
+        android:onClick="aikaTekstiKlicked"
+        android:text="Aamu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPaivaNimi" />
+
+    <TextView
+        android:id="@+id/textViewPaiva"
+        android:layout_width="105dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:onClick="aikaTekstiKlicked"
+        android:text="Paiva"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAamu" />
+
+    <TextView
+        android:id="@+id/textViewIlta"
+        android:layout_width="111dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:onClick="aikaTekstiKlicked"
+        android:text="Ilta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPaiva" />
+
+    <ListView
+        android:id="@+id/listviewAamu"
+        android:layout_width="197dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewAamu"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPaivaNimi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
