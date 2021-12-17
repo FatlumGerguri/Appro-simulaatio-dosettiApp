@@ -5,10 +5,25 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Dosetti"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Laakelista_testi_01">
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HelppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Kayttajanprofiili"
+            android:exported="false" />
+        <activity
+            android:name=".LisaaLaakeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViikkoActivity"
+            android:exported="false" />
         <activity
             android:name=".PaivaActivity"
             android:exported="false" />

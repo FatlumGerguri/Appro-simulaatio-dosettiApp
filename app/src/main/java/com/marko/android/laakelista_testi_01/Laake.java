@@ -13,14 +13,14 @@ public class Laake {
         this.nimi = nimi;
         this.paivat = new boolean[21];
 
-        //alustetaan listaan 21 falsea...
-        for(int i = 1; i < 20; i++){
-            this.paivat[i] = false;
-        }
-        //TESTING - ma aamu, ma, ilta, ti aamy = true;
+        //for testing purposes
         this.paivat[0] = true;
         this.paivat[2] = true;
         this.paivat[3] = true;
+    }
+    public Laake(String nimi, boolean[]ajat){
+        this.nimi = nimi;
+        this.paivat = ajat;
     }
 
 
@@ -36,11 +36,8 @@ public class Laake {
 
     //Muuttaa listassa kohdat true tai false
     //onko päivä aikataulussa vai ei..
-    public void lisaaAika(int index){
-        this.paivat[index] = true;
-    }
-    public void poistaAika(int index) {
-        this.paivat[index] = false;
+    public void muutaAika(int index, boolean val){
+            this.paivat[index] = val;
     }
 
     public String toString(){
@@ -51,5 +48,15 @@ public class Laake {
         System.out.println("TULOSTETAAN LISTA;");
         System.out.println(this.paivat);
     }
+
+    public boolean[] getPaivat() {
+        return paivat;
+    }
+
+        //palauttaa ajan true/false, esim. switchille joka hauaa tietää onko kyseinen aika on/off..
+    public boolean getAika(int i) {
+        return this.paivat[i];
+    }
+
 
 }
