@@ -1,22 +1,17 @@
-# Hypermarket-simulaatio
-Ohjelmistotuotannon Olioohjelmointi kurssin projektin versionhallinta sivu.
+# Helth Mobile App - DOSETTI APP - Lääkkeen annostelu sovellus
+Android project for Mobile health applications course in Metropolia University of Applied Sciences.
 
-# Tavoiteet
-Projektissa tavoitteena on saavuttaa hypermarkettiin voittoa sekä tyytyväisiä asiakkaita.
-Projektin tarkoituksena on tutkia, kuinka hypermarket selviää suurista yllättävistä asiakasmääristä sekä sen tuomasta kuormituksesta, miten kassojen määrä voi vaikuttaa jonojen muodostumiseen eri palvelupisteissä.
+![image](https://github.com/FatlumGerguri/Hypermarket-simulaatio/assets/69623274/98a8189b-0b85-40cb-9627-07b2cc2329ad)
 
-## HYPERMARKET
-Hypermarketsimulaatio, miten kassojen määrä ja palveluajat voivat vaikuttaa
-asiakkaiden viettämään aikaan kassalla.
+Ohjelmistotuotannon Mobiilit terveyssovellukset kurssin projektin versionhallinta sivu.
 
-# Käytetyt ohjelmointikielet ja kirjastot (ulkoiset API:t).
-- Ohjelmointikieli: Java, Ohjelmointiympäristö: Eclipse
-- API:t eduniDistributions – sattumanvaraisuusgeneraattorit
-- JavaFX – graafinen käyttöliittymä
-- Mariadb & Hibernate– tietokannan hallinta
-# Arkkitehtuuri
-- MVC-malli (Model View Controller)
+# Objectives
+- Medication reminder.
+- The central operating principle of the application is to serve as a daily medication reminder for the user of the application.
+
+# Language.
+- Programming Language: Java,
+- Integrated Development Environment (IDE): Android Studio
 
 #Tekijät 
-- Fatlum Gerguri, Hussein Al-Bayati, Marko Wiik, Tomi Salmi.
-- Projekti siirrettiin SVN-repoista GitHubiin
+- Fatlum Gerguri, Hussein Al-Bayati, Marko Wiik, Janne Kajastie.
