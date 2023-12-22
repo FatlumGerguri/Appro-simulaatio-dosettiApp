@@ -5,13 +5,13 @@ Android project for Mobile health applications course in Metropolia University o
 
 Ohjelmistotuotannon Mobiilit terveyssovellukset kurssin projektin versionhallinta sivu.
 
-# Objectives
+## Objectives
 - Medication reminder.
 - The central operating principle of the application is to serve as a daily medication reminder for the user of the application.
 
-# Language.
+## Language and Development Environment
 - Programming Language: Java,
 - Integrated Development Environment (IDE): Android Studio
 
-#Tekijät 
+## Tekijät 
 - Fatlum Gerguri, Hussein Al-Bayati, Marko Wiik, Janne Kajastie.
