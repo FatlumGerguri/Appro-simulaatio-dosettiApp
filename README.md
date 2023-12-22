@@ -13,4 +13,6 @@ Projektin tarkoituksena on tutkia, kuinka hypermarket selviää suurista yllätt
 # Arkkitehtuuri
 - MVC-malli (Model View Controller)
 
-Tekijät Fatlum Gerguri,Hussein Al-Bayati, Marko Wiik, Tomi Salmi.
+#Tekijät 
+- Fatlum Gerguri, Hussein Al-Bayati, Marko Wiik, Tomi Salmi.
+- Projekti siirrettiin SVN-varastoista GitHubiin
