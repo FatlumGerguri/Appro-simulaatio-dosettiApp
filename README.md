@@ -15,4 +15,4 @@ Projektin tarkoituksena on tutkia, kuinka hypermarket selviää suurista yllätt
 
 #Tekijät 
 - Fatlum Gerguri, Hussein Al-Bayati, Marko Wiik, Tomi Salmi.
-- Projekti siirrettiin SVN-varastoista GitHubiin
+- Projekti siirrettiin SVN-repoista GitHubiin
