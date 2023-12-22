@@ -1,4 +1,4 @@
 # Appro-simulaatio dosettiApp
 Ohjelmistotuotannon Olioohjelmointi kurssin projektin versionhallinta sivu.
 
-Tekijät Fatlum Gerguri,Hussein Al-Bayati.
+Tekijät Fatlum Gerguri,Hussein Al-Bayati, Marko Wiik.
