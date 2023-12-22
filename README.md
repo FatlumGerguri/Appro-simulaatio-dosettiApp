@@ -1,4 +1,4 @@
-# Appro-simulaatio dosettiApp - Hypermarketsimulaatio
+# Hypermarket-simulaatio
 Ohjelmistotuotannon Olioohjelmointi kurssin projektin versionhallinta sivu.
 
 # Tavoiteet
