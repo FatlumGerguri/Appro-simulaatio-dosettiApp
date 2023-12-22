@@ -13,5 +13,8 @@ Ohjelmistotuotannon Mobiilit terveyssovellukset kurssin projektin versionhallint
 - Programming Language: Java,
 - Integrated Development Environment (IDE): Android Studio
 
-## Tekijät 
-- Fatlum Gerguri, Hussein Al-Bayati, Marko Wiik, Janne Kajastie.
+## Authors 
+1. Fatlum Gerguri
+2. Hussein Al-Bayati
+3. Marko Wiik
+4. Janne Kajastie.
